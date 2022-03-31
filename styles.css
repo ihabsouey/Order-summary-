@@ -1,0 +1,75 @@
+body{
+    background-image: url("/images/pattern-background-desktop.svg") ;
+    background-repeat:no-repeat;
+    background-color: hsl(225, 100%, 94%) ;
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+.card{
+   margin-top: 3%;
+    width: 30%;
+    height: 90vh;
+    max-height: 630px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    border-radius: 15px;
+}
+#cardHeader img{
+    width: 100%;
+}
+.container{
+    padding: 35px;
+    text-align: center;
+}
+#title{
+    font-size: 24px;
+    font-weight: 900  ;
+     
+}
+#description {
+    font-size: 16px;
+    font-weight: 500  ;
+    margin: 25px 0;
+    color: gray;
+}
+#plan{
+    padding: 15px;
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+    background-color:   hsl(225, 100%, 98%);
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+#priceplan{
+    margin-left: 15px;
+    margin-right: auto;
+    font-size: 14px;
+}
+#plan strong{
+    font-weight: 900;
+}
+#btnpaiement{
+    width: 100%;
+    padding: 15px 25px;
+    border-radius: 15px;
+    border:none;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    box-shadow: 0 15px 15px 5px hsl(225, 100%, 98%) ;
+    cursor: pointer;
+    
+    }
+#btncancel{
+    cursor: pointer;
+    background-color:transparent;
+    border:none ;
+    color: gray;
+    font-weight: 700;
+    font-size: 16px;
+}
